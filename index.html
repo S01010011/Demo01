@@ -365,14 +365,14 @@
         // scroll
         $('#navbar-response a').on('click',function(e){
           e.preventDefault();
-          $('body').animate({
+          $('body').stop(true).animate({
             scrollTop : $($(this).attr('href')).offset().top,
           },1000,'easeOutQuad');
         })
 
         $('.gotop').on('click',function(e){
           e.preventDefault();
-          $('html,body').animate({
+          $('html,body').stop(true)..animate({
             scrollTop : 0,
           },2000,'easeOutBounce');
         })
