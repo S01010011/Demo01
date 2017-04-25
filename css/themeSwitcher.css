@@ -1,0 +1,54 @@
+
+/*init*/
+#themeSwitcher a{
+	text-decoration: none;
+	color:#000;
+}
+
+#themeSwitcher ul{
+	padding:0;
+	margin:0;
+}
+
+#themeSwitcher li{
+	list-style: none;
+	float: left;
+	margin-left: 5px;
+}
+
+#themeSwitcher li:first-child{
+	margin-left:0;
+}
+
+/* themeSwitcher */
+#themeSwitcher{
+	position:fixed;
+	top:100px;
+	padding: 15px;
+	background-color: #fff;
+	text-align: center;
+	z-index:100;
+}
+
+#themeSwitcher p{
+	padding:0 10px 15px 10px;
+}
+
+#themeSwitcher ul li a{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+#themeSwitcher .panel-switch{
+	position:absolute;
+	width:30px;
+	height:30px;
+	left:100%;
+	top:0;
+	font-weight:bold;
+	font-size:20px;
+	line-height:30px;
+	background-color: inherit;
+}
+

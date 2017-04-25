@@ -1,0 +1,25 @@
+﻿
+body {
+    background-color: #339966;
+}
+
+.navbar-inverse {
+    background-color: #21925C;
+    border-color: #21925C;
+}
+
+.developers-img {
+    border: 5px solid #339966;
+}
+
+.testimonial:after {
+    border-top-color: #339966;
+}
+
+.testimonial {
+    border: 1px solid #339966;
+}
+
+.testimonial-name {
+    color: #339966;
+}
