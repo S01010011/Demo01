@@ -5,4 +5,4 @@
    Chrome 57<br>
    Firefox 51<br>
    Opera 44<br>
-   IE 11<br>
+   IE 10<br>
